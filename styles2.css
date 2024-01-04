@@ -1,0 +1,66 @@
+/* Header Section */
+header{
+  padding: 10px;
+}
+#marvel-logo{
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  background-color: black;
+  text-align: center;
+}
+
+#marvel-logo img{
+  height: 100%;
+}
+/* Main Section */
+#card-container {
+  display: flex;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.superHero-card {
+  width: 300px;
+  padding: 20px;
+  background: linear-gradient(red, blue);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin: 20px;
+}
+
+.superHero-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.superHero-card h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.del-from-fav {
+  color: darkgray;
+  display: inline-block;
+  margin-left: auto;
+  padding: 7px;
+  border: 1px solid wheat;
+}
+
+.del-from-fav:active {
+  transform: translateY(3px);
+  color: red;
+}
